@@ -48,5 +48,27 @@ GitHub repo (source, stays where it is)
    Account → Cloudflare Zero Trust (Edit). Paste it here; I will NOT commit it.
 3. The **allowlist emails** (yours + friends/family who should get in).
 
-## Review
-(to be filled in after completion)
+## RE-PLAN (blocker found 2026-06-15)
+- Site was deployed as a **Worker** (`adamopolis-spotify-website.adam-ogorman.workers.dev`),
+  not a Pages project. Verified live, serving correct content (HTTP 200, 5 playlists).
+- **Blocker:** Cloudflare Access self-hosted apps require a custom domain in the user's
+  own zone. They CANNOT protect a raw `*.workers.dev` host, and the Pages Access toggle
+  only covers preview links, not the production domain. (Confirmed via CF docs.)
+- **Unblock:** A Worker is server-side, so real auth can live in the Worker itself —
+  no domain needed. Options presented to Adam:
+    A) Username+password (HTTP Basic / form) in the Worker — free, current URL. [recommended]
+    B) Register a custom domain (~$10/yr) + Cloudflare Access email-PIN — per-person allowlist.
+    C) Google OAuth inside the Worker — literal Google button, needs GCP OAuth client.
+- Status: awaiting Adam's choice (he dismissed the picker; do not proceed until he says).
+
+## Review (DONE 2026-06-15)
+- Pivoted from Cloudflare Access (needs custom domain) to in-Worker Basic Auth, since the
+  site runs as a Git-connected static-assets Worker (server-side code is available).
+- Implementation: `wrangler.jsonc` adds `main: src/index.js` + ASSETS binding with
+  `run_worker_first: true`; the Worker checks `SITE_PASSWORD` (Cloudflare secret) before
+  serving assets. Password is NOT in the public repo.
+- Verified live via curl: no creds → 401, correct creds → 200 (site loads), wrong pw → 401.
+- Login: user `music` / password stored as SITE_PASSWORD secret.
+- Future option: per-person logins / "Sign in with Google" = custom domain + Cloudflare Access.
+- Note: the API token Adam supplied never validated; finished entirely via Git + dashboard
+  secret instead, verifying through the public URL.
