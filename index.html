@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adam's Spotify Playlists</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="logo-dot"></div>
+    <h1 id="title">My Spotify Playlists</h1>
+    <p id="tagline" class="tagline"></p>
+  </header>
+
+  <main id="playlists" class="grid">
+    <!-- Playlists are inserted here automatically from playlists.js -->
+  </main>
+
+  <p id="empty" class="empty" hidden>
+    No playlists yet — add some in <code>playlists.js</code>.
+  </p>
+
+  <footer class="footer">
+    <p>Got a tip? Tell me what I should be listening to. 🎧</p>
+  </footer>
+
+  <script src="playlists.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
