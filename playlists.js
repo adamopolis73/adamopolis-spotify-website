@@ -20,6 +20,21 @@ const MY_PLAYLISTS = [
     note: "Give it a listen and let me know what I should add!",
     url: "https://open.spotify.com/playlist/0Gago74tjYn2X8UnTGMISr",
   },
+  {
+    title: "My Playlist 2",
+    note: "Give it a listen and let me know what I should add!",
+    url: "https://open.spotify.com/playlist/1aHNW8G8dI71P90JgRvOLq",
+  },
+  {
+    title: "My Playlist 3",
+    note: "Give it a listen and let me know what I should add!",
+    url: "https://open.spotify.com/playlist/7Ggomu7HwGMtUBNsdAoLsm",
+  },
+  {
+    title: "My Playlist 4",
+    note: "Give it a listen and let me know what I should add!",
+    url: "https://open.spotify.com/playlist/2lohBgN67ovGvP89uyyqPu",
+  },
   // ---- copy from here ----
   // {
   //   title: "Road Trip Bangers",
