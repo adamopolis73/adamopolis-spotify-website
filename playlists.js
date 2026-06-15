@@ -17,27 +17,27 @@
 const MY_PLAYLISTS = [
   {
     title: "Better Than the Shit You Usually Listen To",
-    note: "Reggae, funk, soul, rock and global oddities your record collection wishes it had. Cymande to Van Morrison via Mali — fight me.",
+    note: "The title's not a boast, it's a diagnosis. Reggae, funk, soul and global gold your record collection only dreams about. Cymande to Van Morrison via Mali. You're welcome.",
     url: "https://open.spotify.com/playlist/0Gago74tjYn2X8UnTGMISr",
   },
   {
     title: "Your Ass Will Follow",
-    note: "Seventies funk and soul so heavy your feet file a complaint. Cymande, Betty Davis, Fatback Band — pure dancefloor dynamite.",
+    note: "Seventies funk so filthy your feet will file a complaint. Betty Davis, Fatback Band, Cymande. Resistance is futile — the title already told you how this ends.",
     url: "https://open.spotify.com/playlist/1aHNW8G8dI71P90JgRvOLq",
   },
   {
     title: "Esoteric Nonsense",
-    note: "Gypsy jazz, steel-pan funk, Saharan blues and a bit of Zarathustra. Beautiful weirdness from every corner of the map. No skips, only adventures.",
+    note: "Gypsy jazz, steel-pan funk, Saharan blues and a cheeky bit of Zarathustra. If you've heard of even half these artists, congratulations — you've got taste. The rest of you, buckle up.",
     url: "https://open.spotify.com/playlist/7Ggomu7HwGMtUBNsdAoLsm",
   },
   {
     title: "Damn Fine Music",
-    note: "Soul, funk, Afrobeat and global grooves with not a dud in sight — Fela, The Meters, Miriam Makeba. The coffee's good too.",
+    note: "Soul, funk, Afrobeat and global grooves with not one single dud — Fela, The Meters, Miriam Makeba. Damn fine indeed. The coffee's good too, Agent Cooper.",
     url: "https://open.spotify.com/playlist/2lohBgN67ovGvP89uyyqPu",
   },
   {
     title: "Toots",
-    note: "Half an hour of pure Toots & The Maytals — Pressure Drop, Monkey Man, 54-46. The joyful, foot-stomping heartbeat of Jamaican ska and reggae.",
+    note: "Half an hour of pure, uncut Toots & The Maytals — Pressure Drop, Monkey Man, 54-46. If this doesn't move you, check your pulse. The heartbeat of Jamaica, no filler.",
     url: "https://open.spotify.com/playlist/1aF3hHr9HrhyFTpVxn3uR4",
   },
   // ---- copy from here ----
@@ -52,5 +52,5 @@ const MY_PLAYLISTS = [
 // ---- A little info about you, shown at the top. Edit freely. ----
 const PAGE_INFO = {
   name: "Adam",
-  tagline: "Here are the playlists I'm into. Hit me with your musical tips!",
+  tagline: "My playlists. Objectively superior to yours. Press play, then tell me what I'm missing — if you dare.",
 };
