@@ -16,9 +16,9 @@
 
 const MY_PLAYLISTS = [
   {
-    title: "My Example Playlist",
-    note: "Replace this with one of your real playlists! Paste the share link as the url below.",
-    url: "https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M",
+    title: "My Playlist",
+    note: "Give it a listen and let me know what I should add!",
+    url: "https://open.spotify.com/playlist/0Gago74tjYn2X8UnTGMISr",
   },
   // ---- copy from here ----
   // {
