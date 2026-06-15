@@ -35,6 +35,11 @@ const MY_PLAYLISTS = [
     note: "Give it a listen and let me know what I should add!",
     url: "https://open.spotify.com/playlist/2lohBgN67ovGvP89uyyqPu",
   },
+  {
+    title: "My Playlist 5",
+    note: "Give it a listen and let me know what I should add!",
+    url: "https://open.spotify.com/playlist/1aF3hHr9HrhyFTpVxn3uR4",
+  },
   // ---- copy from here ----
   // {
   //   title: "Road Trip Bangers",
