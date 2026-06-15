@@ -16,7 +16,7 @@
 
 const MY_PLAYLISTS = [
   {
-    title: "Better Than the Stuff You Usually Listen To",
+    title: "Better Than the Shit You Usually Listen To",
     note: "Reggae, funk, soul, rock and global oddities your record collection wishes it had. Cymande to Van Morrison via Mali — fight me.",
     url: "https://open.spotify.com/playlist/0Gago74tjYn2X8UnTGMISr",
   },
