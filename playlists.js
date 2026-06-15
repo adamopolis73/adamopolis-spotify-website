@@ -16,28 +16,28 @@
 
 const MY_PLAYLISTS = [
   {
-    title: "My Playlist",
-    note: "Give it a listen and let me know what I should add!",
+    title: "Better Than the Stuff You Usually Listen To",
+    note: "Reggae, funk, soul, rock and global oddities your record collection wishes it had. Cymande to Van Morrison via Mali — fight me.",
     url: "https://open.spotify.com/playlist/0Gago74tjYn2X8UnTGMISr",
   },
   {
-    title: "My Playlist 2",
-    note: "Give it a listen and let me know what I should add!",
+    title: "Your Ass Will Follow",
+    note: "Seventies funk and soul so heavy your feet file a complaint. Cymande, Betty Davis, Fatback Band — pure dancefloor dynamite.",
     url: "https://open.spotify.com/playlist/1aHNW8G8dI71P90JgRvOLq",
   },
   {
-    title: "My Playlist 3",
-    note: "Give it a listen and let me know what I should add!",
+    title: "Esoteric Nonsense",
+    note: "Gypsy jazz, steel-pan funk, Saharan blues and a bit of Zarathustra. Beautiful weirdness from every corner of the map. No skips, only adventures.",
     url: "https://open.spotify.com/playlist/7Ggomu7HwGMtUBNsdAoLsm",
   },
   {
-    title: "My Playlist 4",
-    note: "Give it a listen and let me know what I should add!",
+    title: "Damn Fine Music",
+    note: "Soul, funk, Afrobeat and global grooves with not a dud in sight — Fela, The Meters, Miriam Makeba. The coffee's good too.",
     url: "https://open.spotify.com/playlist/2lohBgN67ovGvP89uyyqPu",
   },
   {
-    title: "My Playlist 5",
-    note: "Give it a listen and let me know what I should add!",
+    title: "Toots",
+    note: "Half an hour of pure Toots & The Maytals — Pressure Drop, Monkey Man, 54-46. The joyful, foot-stomping heartbeat of Jamaican ska and reggae.",
     url: "https://open.spotify.com/playlist/1aF3hHr9HrhyFTpVxn3uR4",
   },
   // ---- copy from here ----
